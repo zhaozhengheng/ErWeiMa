@@ -22,6 +22,9 @@ public class Main2Activity extends AppCompatActivity {
         CodeUtils.setFragmentArgs(captureFragment, R.layout.my_camera);
 
         captureFragment.setAnalyzeCallback(analyzeCallback);
+
+
+
         /**
          * 替换我们的扫描控件
          */
